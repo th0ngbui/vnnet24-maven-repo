@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.vnnet24</groupId>
+  <artifactId>tiny-java</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0.CI-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20131010082021</lastUpdated>
+  </versioning>
+</metadata>
