@@ -3,11 +3,11 @@
    <modelVersion>4.0.0</modelVersion>
 
    <groupId>com.vnnet24</groupId>
-   <artifactId>archetype-java-archetype</artifactId>
+   <artifactId>java-archetype</artifactId>
    <version>0.0.1-SNAPSHOT</version>
    <packaging>maven-archetype</packaging>
 
-   <name>archetype-java-archetype</name>
+   <name>java-archetype</name>
 
    <build>
       <extensions>
