@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.vnnet24</groupId>
-  <artifactId>archetype-java</artifactId>
+  <artifactId>archetype-java-archetype</artifactId>
   <versioning>
     <versions>
       <version>0.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20131011090351</lastUpdated>
+    <lastUpdated>20131011091951</lastUpdated>
   </versioning>
 </metadata>
