@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.vnnet24</groupId>
+  <artifactId>vnnet24-custom-archetype</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20131011.075950</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20131011075950</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.1-20131011.075950-1</value>
+        <updated>20131011075950</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
