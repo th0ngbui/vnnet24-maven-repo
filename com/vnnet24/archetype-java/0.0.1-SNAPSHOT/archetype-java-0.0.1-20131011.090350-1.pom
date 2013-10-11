@@ -1,15 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
    <modelVersion>4.0.0</modelVersion>
    <artifactId>archetype-java</artifactId>
+   <groupId>com.vnnet24</groupId>
    <packaging>jar</packaging>
    <name>archetype-java</name>
    <description>vnnet24 archetype java</description>
-   <version>${parent.version}</version>
-   <parent>
+   <version>0.0.1-SNAPSHOT</version>
+   <!-- <parent>
       <groupId>com.vnnet24</groupId>
       <artifactId>vnnet24-custom-archetype</artifactId>
       <version>0.0.1-SNAPSHOT</version>
-   </parent>
+   </parent> -->
    <profiles>
       <profile>
          <id>env-dev</id>
@@ -18,6 +19,23 @@
          </activation>
       </profile>
    </profiles>
+   <distributionManagement>
+      <repository>
+         <id>my.internal.repo</id>
+         <name>Internal Repository</name>
+         <url>file://C:/_CONFIG/maven-internal-repository/</url>
+      </repository>
+   </distributionManagement>
+   <repositories>
+      <repository>
+         <id>vnnet24-maven-repo</id>
+         <url>https://github.com/vnnet24/vnnet24-maven-repo/raw/master</url>
+         <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+         </snapshots>
+      </repository>
+   </repositories>
    <properties>
       <java.version>1.6</java.version>
       <maven.test.failure.ignore>false</maven.test.failure.ignore>
